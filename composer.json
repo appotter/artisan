@@ -19,7 +19,7 @@
         "psr-4": {
             "Moon\\Artisan\\": "./src/",
             "Moon\\Illuminate\\Foundation\\Console\\": "./illuminate/Foundation/Console/",
-            "Artisan\\": "../../../"
+            "Artisan\\": "../../../app/autoload/"
         }
     },
     "minimum-stability": "stable"
