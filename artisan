@@ -40,7 +40,7 @@ $app->singleton(
     'Moon\\Artisan\Exceptions\Handler'
 );
 
-$app->instance('path', getcwd());
+$app->instance('path', getcwd().'/app/autoload/artisan');
 
 
 $kernel = new Moon\Artisan\Console\Kernel(
